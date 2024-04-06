@@ -1,0 +1,266 @@
+/* BODY */
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Exo", sans-serif;
+  background-color: black;
+}
+/* END OF BODY */
+
+/* NAVIGATION BAR */
+.navbar {
+  background-color: rgba(40, 38, 35, 0.757);
+  position: fixed;
+  min-width: 100%;
+  z-index: 10;
+}
+.nav-link {
+  color: white;
+  font-size: 15px;
+}
+.nav-link:hover {
+  color: aqua;
+  cursor: pointer;
+  border-top: 2px solid aqua;
+  border-bottom: 2px solid aqua;
+}
+.active {
+  font-weight: 500;
+  border-top: 2px solid aqua;
+  border-bottom: 2px solid aqua;
+  color: aqua !important;
+}
+/* END OF NAVIGATION BAR */
+
+/* BACKGROUND IMAGES */
+#bg1 {
+  height: 100vh;
+  min-width: 100%;
+  display: flex;
+  background: url(img/aboutme.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+.bg2 {
+  height: 60vh;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(img/myexperience.jpeg) no-repeat fixed;
+  background-size: cover;
+  background-position: top;
+}
+
+#bg3 {
+  height: 100vh;
+  min-width: 100%;
+  background: url(img/teletech.jfif) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#bg4 {
+  height: 100vh;
+  min-width: 100%;
+  background: url(img/valor.jpg) no-repeat fixed;
+  background-size: cover;
+  background-position: center top;
+}
+#bg5 {
+  height: 100vh;
+  min-width: 100%;
+  background: url(img/asc.jpg) no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+#bg6 {
+  height: 100vh;
+  min-width: 100%;
+  background: url(img/myskills.avif) no-repeat fixed;
+  background-size: cover;
+  background-position: center top;
+}
+#bg7 {
+  height: 110vh;
+  min-width: 100%;
+  align-items: center;
+  background: url(img/educ1.jpg) no-repeat fixed;
+  background-size: cover;
+  background-position: center top;
+}
+@media screen and (max-width: 800px) {
+  #bg7 {
+    height: 120vh;
+  }
+}
+@media screen and (max-width: 505px) {
+  #bg7 {
+    height: 130vh;
+  }
+}
+@media screen and (max-width: 450px) {
+  #bg7 {
+    height: 140vh;
+  }
+}
+@media screen and (max-width: 400px) {
+  #bg7 {
+    height: 135vh;
+  }
+}
+@media screen and (max-width: 350px) {
+  #bg7 {
+    height: 125vh;
+  }
+}
+@media screen and (max-width: 300px) {
+  #bg7 {
+    height: 100vh;
+  }
+}
+#bg8 {
+  height: 100vh;
+  min-width: 100%;
+  background: url(img/educ2.jpg) no-repeat fixed;
+  background-size: cover;
+  background-position: center;
+}
+/* END OF BACKGROUND IMAGES */
+
+/* ABOUT ME & EXPERIENCE CONTAINER */
+.btn {
+  color: aqua;
+  border-color: aqua;
+  background-color: black;
+  margin: auto 5px;
+}
+.aboutme-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.aboutme-container h1 {
+  font-size: 6.5dvh;
+  margin: 5px;
+}
+.about-text,
+.experience-text {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: 10%;
+}
+.experience-container h1 {
+  font-size: 5dvh;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* END OF ABOUT ME & EXPERIENCE CONTAINER */
+
+/* EDUCATION CONTAINER */
+.education-text {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  max-width: 80%;
+  max-height: 100dvw;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+  overflow: auto;
+}
+.education-container h1 {
+  font-size: 6.5dvh;
+  margin: 5px;
+}
+/* END OF EDUCATION CONTAINER */
+
+/* TEXT STYLES */
+h1 {
+  display: block;
+  margin: 4rem;
+  color: aqua;
+}
+h2 {
+  display: block;
+
+  color: aqua;
+}
+p {
+  font-size: 2dvh;
+  color: white;
+}
+.list-unstyled {
+  color: white;
+  text-align: center;
+}
+/* END OF TEXT STYLE */
+
+/* PROJECTS */
+.skills {
+  min-height: 100vh;
+}
+.card {
+  margin: 5% 0 5% 0;
+  border-color: black;
+  background-color: black;
+}
+.card-title {
+  text-align: center;
+  font-size: 2.5vw;
+  margin-top: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.card-body {
+  background-color: rgba(0, 0, 0, 0.885);
+}
+.images {
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.images:hover {
+  transform: scale(1.1);
+}
+/* END OF PROJECTS */
+
+/* FOOTER */
+.hire-section {
+  min-height: 90vh;
+}
+.hire {
+  margin: 10% 0;
+}
+.form-control {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-color: aqua;
+  min-width: 100%;
+  color: white;
+}
+.form-control:focus {
+  background-color: black;
+}
+form {
+  min-width: 100%;
+}
+label {
+  color: white;
+  margin: 8px;
+}
+input {
+  color: white;
+}
+a:hover {
+  color: aqua;
+}
+#name {
+  float: left;
+  color: white;
+}
+/* END OF FOOTER */
